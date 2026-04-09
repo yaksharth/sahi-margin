@@ -1,0 +1,83 @@
+{
+  "theme": "Light",
+  "archetype": "Archetype 4 (Swiss & High-Contrast) tailored for Business/Finance",
+  "colors": {
+    "sidebar": {
+      "background": "#1a1a2e",
+      "text_default": "#94a3b8",
+      "text_hover": "#f8fafc",
+      "active_bg": "#FF6B00",
+      "active_text": "#ffffff",
+      "border": "#272740"
+    },
+    "main": {
+      "background": "#F8F9FA",
+      "card_bg": "#ffffff",
+      "text_primary": "#0f172a",
+      "text_secondary": "#64748b",
+      "border": "#e2e8f0"
+    },
+    "status": {
+      "positive": "#059669",
+      "negative": "#ef4444",
+      "warning": "#d97706"
+    }
+  },
+  "typography": {
+    "heading_font": "Cabinet Grotesk, sans-serif",
+    "body_font": "Inter, sans-serif",
+    "rules": {
+      "h1": "text-3xl font-bold tracking-tight text-slate-900",
+      "h2": "text-lg font-bold tracking-tight text-slate-900",
+      "data_value": "text-3xl font-black tracking-tighter text-slate-900",
+      "table_header": "text-[11px] font-bold uppercase tracking-[0.05em] text-slate-500",
+      "label": "text-sm font-medium text-slate-500"
+    }
+  },
+  "layout": {
+    "spacing_system": "Control Room Grid (Dense, Functional)",
+    "container": "flex h-screen w-full bg-[#F8F9FA] overflow-hidden font-sans",
+    "sidebar": "w-[240px] flex-shrink-0 bg-[#1a1a2e] flex flex-col h-full",
+    "main_content": "flex-1 flex flex-col h-full overflow-y-auto",
+    "header": "flex items-center justify-between px-8 py-8",
+    "dashboard_grid": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 px-8 pb-8"
+  },
+  "components": {
+    "sidebar_nav": "flex items-center gap-3 px-4 py-2.5 mx-4 rounded-lg text-sm font-medium transition-all group",
+    "sidebar_nav_default": "text-[#94a3b8] hover:bg-white/5 hover:text-white",
+    "sidebar_nav_active": "bg-[#FF6B00] text-white shadow-[0_4px_12px_rgba(255,107,0,0.3)]",
+    "stat_card": "bg-white p-6 rounded-lg border border-slate-200 shadow-sm flex flex-col gap-3 relative overflow-hidden transition-transform duration-200 hover:-translate-y-1",
+    "table_card": "bg-white rounded-lg border border-slate-200 shadow-sm overflow-hidden mx-8 mb-8",
+    "table": "w-full text-left border-collapse",
+    "table_row": "border-b border-slate-100 hover:bg-slate-50/50 transition-colors",
+    "table_cell": "py-4 px-6 text-sm text-slate-700",
+    "platform_badges": {
+      "Amazon": "bg-blue-50 text-blue-700 border-blue-200/60",
+      "Flipkart": "bg-amber-50 text-amber-700 border-amber-200/60",
+      "Shopify": "bg-emerald-50 text-emerald-700 border-emerald-200/60",
+      "Custom Website": "bg-purple-50 text-purple-700 border-purple-200/60",
+      "Manual Entry": "bg-slate-50 text-slate-700 border-slate-200/60"
+    },
+    "badge_base": "border px-2.5 py-0.5 rounded-md text-[11px] font-bold tracking-wide uppercase inline-flex items-center"
+  },
+  "media": {
+    "avatar_url": "https://images.unsplash.com/photo-1649433658557-54cf58577c68?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNDR8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBtYW4lMjBwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NzU2ODE3Mjl8MA&ixlib=rb-4.1.0&q=85",
+    "product_images": {
+      "brass_lamp": "https://images.unsplash.com/photo-1759607236409-1df137ecb3b6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwyfHxpbmRpYW4lMjBldGhuaWMlMjBwcm9kdWN0c3xlbnwwfHx8fDE3NzU2ODE3Mjl8MA&ixlib=rb-4.1.0&q=85",
+      "wooden_toy": "https://images.unsplash.com/photo-1765446568880-23ef9d4f6b12?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwzfHxpbmRpYW4lMjBldGhuaWMlMjBwcm9kdWN0c3xlbnwwfHx8fDE3NzU2ODE3Mjl8MA&ixlib=rb-4.1.0&q=85"
+    },
+    "logo_instructions": "Build the logo organically in code. Use a container with a background gradient `bg-gradient-to-tr from-cyan-400 to-lime-400`. Inside, put the `TrendingUp` icon in white or dark navy. Next to it, render the text 'Sahi Margin' in white `font-bold tracking-tight text-xl`. NO image file needed."
+  },
+  "instructions_to_main_agent": [
+    "Build 'Sahi Margin' as a React SPA with React Router. The Dashboard is the main page.",
+    "Install `lucide-react` for icons.",
+    "Use a pure HTML/Tailwind approach for layouts. Avoid using heavy UI components for simple layout wrappers.",
+    "Implement the 4 KPI stat cards with hardcoded values: Revenue (\u20b912,450), Profit (\u20b93,200), Orders (24), Alerts (3).",
+    "Build the Recent Orders table matching the specifications: Product Name, Platform, Selling Price, Net Profit, Date.",
+    "Add 6 dummy rows for Indian e-commerce products (kurta, phone case, diyas, brass lamp, wooden toy, spice box).",
+    "Use exact hex colors defined in this JSON.",
+    "Apply `data-testid` to all navigation links, stat cards, and table rows.",
+    "Set the sidebar strictly to 240px wide with background `#1a1a2e`. Active nav item gets the `#FF6B00` background.",
+    "Ensure standard E1 alignment: Dashboard numbers should be highly legible, left-aligned, and structured."
+  ]
+}
