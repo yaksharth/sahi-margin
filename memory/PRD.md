@@ -59,6 +59,13 @@ English-only UI, slightly modern/premium look, dark navy sidebar (#1a1a2e) + ora
 - [x] **Orders**: Platform filter tabs (All/Amazon/Flipkart/Shopify/Custom Website/Manual Entry), empty state with illustration + Add Order CTA
 - [x] **Inventory**: Add Product button + modal (Name, SKU, Stock, Reorder Level, Price ₹)
 
+## Iteration 4 Changes (April 2026)
+- [x] **Dashboard period filter**: 7D/30D/90D buttons (30D default), stat labels + values update per period
+- [x] **4th stat card**: Replaced "Low Stock Alerts" → "Net Margin %" (25.6%/26.6%/25.6% per period)
+- [x] **Profit Trend Chart**: recharts LineChart with Revenue(blue)/Expenses(red)/Profit(green), own period selector
+- [x] **RTO alert banner**: Orange left-border card, AlertTriangle, "2 RTO orders, ₹1,748 estimated loss", View RTO Orders → /orders?RTO tab
+- [x] **Orders RTO tracking**: RTO status badge (red), 2 RTO orders in data, RTO filter tab with count badge, Add Order modal Status dropdown includes RTO, RTO rows show negative profit
+
 ## Prioritized Backlog
 
 ### P0 (Next Sprint)
