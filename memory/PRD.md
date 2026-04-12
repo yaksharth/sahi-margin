@@ -66,6 +66,10 @@ English-only UI, slightly modern/premium look, dark navy sidebar (#1a1a2e) + ora
 - [x] **RTO alert banner**: Orange left-border card, AlertTriangle, "2 RTO orders, ₹1,748 estimated loss", View RTO Orders → /orders?RTO tab
 - [x] **Orders RTO tracking**: RTO status badge (red), 2 RTO orders in data, RTO filter tab with count badge, Add Order modal Status dropdown includes RTO, RTO rows show negative profit
 
+## Iteration 5 Changes (April 2026)
+- [x] **Landing Page** at `/`: Full SaaS landing with sticky nav, hero (particle field + HeroDashboard preview, orange #FF6B00 accents), animated stats counters, platform marquee, 6 feature cards, live profit calculator, 3-step How It Works, testimonials carousel, pricing (Free ₹0 / Pro ₹499 / Business ₹999), final CTA, footer
+- [x] **Routing updated**: `/` → LandingPage (public), `/dashboard` → Dashboard (protected), auth flow redirects to `/dashboard`
+
 ## Prioritized Backlog
 
 ### P0 (Next Sprint)
